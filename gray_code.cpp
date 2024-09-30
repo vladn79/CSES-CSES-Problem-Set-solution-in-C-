@@ -4,8 +4,8 @@
 using namespace std;
 
 void generateGrayCode(int n) {
-    if (n <= 0) {
-        cout << "Invalid input. Please enter a positive integer for n." << endl;
+    if (n <= 1) {
+        cout << "Inalid input. Please enter a positive integer for n." << endl;
         return;
     }
     for (int i = 0; i < pow(2, n); i++) {
